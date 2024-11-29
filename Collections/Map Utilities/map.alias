@@ -1740,7 +1740,7 @@ elif (not c or '?' in argList or args.get('help')) and not args.get("tokenimport
              `-loadjson <url>` - Loads Json file. You can continue to run this command as many times you want, the files will append one after the other.
              `-deletejson <url>` - Deletes A Specific Json File
              `-loadjson reset` - Deletes All Json Files
-             See [Predefined Maps and Tokens](http://docs.otfbm.com/#/predefined-maps-and-tokens) for detailed explanation.
+             See [Predefined Maps and Tokens](http://docs.otfbm.com/#/pages/predefined) for detailed explanation.
              You do need to set `-mapsize json` if you want the JSON file to overwrite the default `-mapsize` settings."
              -f "__Interface Options__|
              `-options [args]` - Changes visual options using the following arguments:
