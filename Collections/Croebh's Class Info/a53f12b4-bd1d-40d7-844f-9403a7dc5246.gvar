@@ -213,5 +213,16 @@
       "Mutant",
       "Profane Soul"
     ]
+  },
+  "Illrigger":{
+    "hit_die": 10,
+    "sub_level": 3,
+    "subclasses": [
+      "Architect of Ruin",
+      "Hellspeaker",
+      "Painkiller",
+      "Sanguine Knight",
+      "Shadowmaster"
+    ]
   }
 }
