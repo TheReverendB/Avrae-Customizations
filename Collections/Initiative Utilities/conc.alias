@@ -14,7 +14,9 @@ effect = None
 
 dc = args.last('dc', 10, int)
 
-if character().csettings.get('version') == '2024':
+v2014 = character().csettings['version']=='2014' if ctx.guild.servsettings()['allow_character_override'] else ctx.guild.servsettings()['version']=='2014'
+
+if not v2014:
   dc = min(dc, 30)
   rule = "If you take damage, you must succeed on a Constitution saving throw to maintain Concentration. The DC equals 10 or half the damage taken (round down), whichever number is higher, up to a maximum DC of 30."
 else:
